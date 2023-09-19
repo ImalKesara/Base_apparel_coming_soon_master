@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300&family=Poppins:wght@200&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 500px;
+  height: 500px;
+}
+
+.container-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  margin: 10px auto;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content-part {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-image: url(/files/images/bg-pattern-desktop.svg);
+}
