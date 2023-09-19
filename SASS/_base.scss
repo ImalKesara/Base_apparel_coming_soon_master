@@ -5,9 +5,11 @@
     box-sizing: border-box;
 }
 
-img {
-    width: 500px;
-    height: 500px;
+.img {
+    img {
+        width: 100%;
+        height: 500px;
+    }
 }
 
 .container-wrapper {
@@ -29,4 +31,64 @@ img {
     flex-direction: column;
     justify-content: space-around;
     background-image: url(/files/images/bg-pattern-desktop.svg);
+    padding: 50px;
+}
+
+.title {
+    img {
+        width: 150px;
+        height: 30px;
+    }
+}
+
+.title-2 {
+    font-family: 'Josefin Sans';
+    font-size: $base-font-size*2;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    h3 {
+        color: $primary;
+        font-weight: 300 !important;
+    }
+    h2 {
+        color: $thrid;
+        font-weight: 600;
+    }
+}
+
+.paragraph {
+    width: 450px;
+    p {
+        font-family: 'Josefin Sans';
+        color: $primary;
+        line-height: 30px;
+    }
+}
+
+.email {
+    // border: 1px solid black;
+    position: relative;
+    input {
+        width: 80%;
+        height: 50px;
+        border-radius: 40px;
+        outline: none;
+        border: 2px solid $secondary;
+        padding: 20px;
+    }
+    button {
+        background: rgb(255, 209, 178);
+        background: linear-gradient(135deg, $gradient-1, $gradient-1);
+        height: 50px;
+        width: 90px;
+        border: 0;
+        position: absolute;
+        top: 0;
+        right: 50px;
+        border-radius: 40px;
+        transition: all .3s ease-in;
+    }
+    button:hover {
+        box-shadow: 1px -1px 92px 11px rgba(216, 97, 232, 0.33);
+    }
 }
