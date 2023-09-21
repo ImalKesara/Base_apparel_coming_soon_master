@@ -23,6 +23,7 @@
 .container {
   display: flex;
   justify-content: space-between;
+  border-left: 1px solid rgba(118, 117, 117, 0.3);
 }
 
 .content-part {
@@ -63,7 +64,6 @@
 }
 
 .email {
-  border: 1px solid black;
   position: relative;
 }
 .email input {
@@ -75,7 +75,7 @@
   padding: 20px;
 }
 .email button {
-  background: linear-gradient(135deg, rgb(236, 229, 229) 9%, rgb(154, 253, 126) 100%);
+  background: linear-gradient(135deg, rgb(240, 237, 237) 9%, rgb(240, 150, 150) 100%);
   height: 50px;
   width: 90px;
   border: 0;
@@ -86,5 +86,49 @@
   transition: all 0.3s ease;
 }
 .email button:hover {
-  box-shadow: -2px 27px 80px 17px rgba(0, 0, 0, 0.2);
+  box-shadow: -2px 27px 80px 17px rgba(240, 150, 150, 0.3);
+}
+
+.waring {
+  font-family: "Josefin Sans";
+  padding: 10px 20px;
+  color: hsl(0, 93%, 68%);
+}
+
+.hidden {
+  opacity: 0;
+}
+
+.unhidden {
+  opacity: 1;
+}
+
+input {
+  font-family: "Josefin Sans";
+  color: gray;
+}
+
+@media screen and (max-width: 900px) {
+  .container {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+  }
+  .container .content-part {
+    text-align: center;
+  }
+  .container .content-part .title {
+    padding: 15px;
+  }
+  .container p {
+    padding: 20px;
+  }
+  .container input {
+    width: 350px;
+  }
+  .container .img img {
+    margin-top: 100px;
+    width: 400px;
+    height: 400px;
+  }
 }
