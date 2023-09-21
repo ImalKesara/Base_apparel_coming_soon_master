@@ -1,36 +1,16 @@
 //theme colors
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300&family=Poppins:wght@200&display=swap');
-$primary :hsl(0,
-36%,
-70%);
-$secondary:hsl(0,
-93%,
-68%);
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300&family=Poppins:wght@200&display=swap");
+$primary: hsl(0, 36%, 70%);
+$secondary: hsl(0, 93%, 68%);
 //Neutral
-$thrid: hsl(0,
-6%,
-24%);
+$thrid: hsl(0, 6%, 24%);
 //Gradients
-$gradient-1:Linear,
-135deg,
-from hsl(0,
-0%,
-100%),
-to hsl(0,
-100%,
-98%);
-$gradient-2:Linear,
-135deg,
-from hsl(0,
-100%,
-86%),
-to hsl(0,
-74%,
-74%);
+$gradient-1: Linear, 135deg, from hsl(0, 0%, 100%), to hsl(0, 100%, 98%);
+$gradient-2: Linear, 135deg, from hsl(0, 100%, 86%), to hsl(0, 74%, 74%);
 //fonts
-$base-font-size :16px;
+$base-font-size: 16px;
 //font-weight
-$font-weight-1:300;
-$font-weight-1:400;
-$font-weight-1:600;
-$font:'Josefin Sans';
+$font-weight-1: 300;
+$font-weight-1: 400;
+$font-weight-1: 600;
+$font: "Josefin Sans";
